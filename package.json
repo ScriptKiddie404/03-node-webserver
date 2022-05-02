@@ -1,0 +1,19 @@
+{
+  "name": "03-webserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScriptKiddie404/03-node-webserver.git"
+  },
+  "author": "Fernando Puentes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScriptKiddie404/03-node-webserver/issues"
+  },
+  "homepage": "https://github.com/ScriptKiddie404/03-node-webserver#readme"
+}
