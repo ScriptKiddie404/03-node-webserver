@@ -9,4 +9,13 @@ app.get('/', (request, response) => {
     response.sendFile(__dirname + '/public/index.html');
 });
 
+app.get('/generic', (request, res) => {
+    res.sendFile(__dirname + '/public/generic.html');
+});
+
+app.get('/elements', (request, res) => {
+    res.sendFile(__dirname + '/public/elements.html');
+});
+
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
